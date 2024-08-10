@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "testduckdb"
+version = "0.1.0"
+description = ""
+authors = ["rahul38888 <rahul38888@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+duckdb = "0.10.1"
+numpy = "1.26.4"
+pandas = "2.2.2"
+llama-index = "0.10.64"
+llama-index-vector-stores-duckdb = "0.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
