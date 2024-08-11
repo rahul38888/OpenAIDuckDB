@@ -13,6 +13,7 @@ numpy = "1.26.4"
 pandas = "2.2.2"
 llama-index = "0.10.64"
 llama-index-vector-stores-duckdb = "0.1.5"
+duckdb_engine = "0.13.1"
 
 [build-system]
 requires = ["poetry-core"]
